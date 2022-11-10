@@ -25,8 +25,6 @@ Project 2
 > Briefly explain your site's audience.
 > Be specific and justify why this audience is a **cohesive** group.
 
-TODO: site's _cohesive_ audience
-
 The audience that was identified at the Ithaca Harvest Festival was largely students who attend colleges nearby Ithaca. This may include but is most definitely not limited to Ithaca college, cornell, SUNY cortland, Elmira medical student, etc. These students have an understanding of upstate New York college life dynamics and communities thus are at the festival as more of a lesiure and entertainment activity. This is a cohesive audience as their goals all simulatneously align (lesiure and entertainment) and they come from a common, yet broad background as young adult students who are in college. Although exact goals may slightly vary, their biggest goal is to have fun and pursue entertainment and they all will look for information that fufils that in vendor items, performances and actual activites they can partake in. As students who are more so immersed in their respective collegiate community as opposed to the ithaca community, they still need to know information about the event such as hours, dates, parking, layout, etc.
 
 
@@ -197,6 +195,7 @@ I believe that my interactivity is ambitious as it will yield a considerable amo
 
 TODO: interactivity rationale
 
+All my interactive designs employ a considerable amount of affordances. The hamburger navigation has a pointer cursor when a mouse is over it. Likewise, the image for the modal and X button once you are in the modal has the same pointer. The collapsing sections have this pointer as well. This showcases to the user that these buttons afford interaction to the item. Moreover, these items also carry a hover which showcases that the item can be interacted with and clicked on. This hover and pointer cursor provides affordances to the user. Moreover, these jointly impact feedback for the user as well as since the user does an operation, in this case hovers over, the items provide feedback to the user for doing an operation. I effectively implement feedback across my interactivity. For the navigation hamburger, when it is clicked, the button changes from a hamburger to a  3 dotted visual aka collapsed hamburger. This gives feedback to the user that the navigation is opened. This also follows for when you click the 3 dots and close it. Moreover, with the modal image, once it is clicked, a modal opens up. This change provides feedback to the user that the item has been interacted with and this is what occurs. This same idea follows for the X button. For my collpasing sections, when clicked, the section expands and the arrow goes from pointing left to pointing down to illustrate it is open. This gives a strong feedback to the user of what happens when interacted with. For visibility, my navigation hamburger becomes very apparent and is shown where the navigation generally is. Moreover, for the modal, the items are highly visible as it creates a sharp contrast between the modal item and the foreground content. The X item is also shaded different to show the contrast and that it can be used. For the collapsing item, the arrow is visible right next to the content and when it is clicked, the section becomes visible. All my designs are standard designs and very familiar to the user. The hamburger, kebab (collapsed hamburger), the X button on the modal, the arrows on the sections that point left when closed and down when opened are all very familiar concepts for the user.
 
 ### Tell Us What to Grade (Final Submission)
 > We aren't re-grading your Project 1 or 2.
@@ -204,28 +203,30 @@ TODO: interactivity rationale
 > Tell us where (what pages) we can find your interactivity and how to use it.
 > **We will only grade what you list here;** if it's not listed, we won't grade it.
 
-TODO: what should we grade
+Hamburger Interactivity - All pages, top left of page, generally where the navigation bar is. Right below the header. Website width must be below 800px for it to show.
+
+Modal map - Event Details page. All the way at the bottom under the subheading "Event Map". The map itself serves as the interactivity
+
+Collapsing Sections - The 4 sections at the bottom of the Vendors page. The sections themselves serve as the interactivity.
 
 
 ### Collaborators (Final Submission)
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
-
+Nobody
 
 ### Reference Resources (Final Submission)
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
-
+Mozilla Reference Documentation, W3Schools, GeeksForGeeks
 
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
 
-TODO: self-reflection
+THis was a fun project. I liked employing JavaScript interactivity into the program. It made me feel like I had more control of how things on my website should be. It also felt very creative learning JavaScript and utilizing Event Driven Programming.
 
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
 
-TODO: self-reflection
+It has been quite a long and strenous semester but it definitely has been worthwhile.The projects themselves have been pretty tough and I definitely do spend alot of time working on it but it teaches me alot. I feel that I've learned a significant amount in this couse and feel proud of the skills I have in Web Development. This class is really inspiring me to pursue it further as I really enjoy the creative aspects of it and creating cool, unique designs that satisfy users. I look forward to creating a great design and website in my Project 3 and I plan to learn more about the art of web development in info 2300!

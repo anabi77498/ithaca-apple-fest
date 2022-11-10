@@ -14,11 +14,25 @@
                 <!--The content below was provided by the instructor-->
                 <img src="images/apple-harvest-logo.svg" alt="apple harvest logo" width="112" height="128">
             </picture>
+            <div id="btn-cite">
+<!--Button Icon from Icons8. site-citation shown below -->
+                <a target="_blank" href="https://icons8.com/icon/59832/menu">Menu</a> & <a target="_blank" href="https://icons8.com/icon/84119/menu-vertical">Menu Vertical</a>  icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
             <h1>The Ithaca Apple Harvest Festival</h1>
         </header>
 
         <nav>
-            <ul>
+            <div id="btn-container">
+                <button id="nav-btn-close">
+                    <img src="interactive-img/hamburger.png" alt="hamburger-menu-bar">
+                </button>
+
+                <button id="nav-btn-open">
+                    <img src="interactive-img/hamburger2.png" alt="hamburger-menu-bar">
+                </button>
+
+            </div>
+            <ul id="nav-bar">
                 <li class="top"><a href="index.html">About</a></li>
                 <li class="top"><a href="eventinfo.html">Event Details</a></li>
                 <li><a href="vendors.html">Vendors</a></li>
@@ -60,7 +74,7 @@
             </dl>
             <p class="maps-cite"><cite>Information sourced from Google Maps: <a href="https://maps.app.goo.gl/8Kf8PnBXpw4FsRzy5?g_st=ic">Ithaca Commons</a></cite></p>
 
-            <picture>
+            <picture class="resize">
                 <!--The content below was provided by the instructor-->
                 <img src="images/commons-far.jpg" alt="the Ithaca Commons" width="475" height="317">
             </picture>
@@ -81,15 +95,22 @@
 
         <div class="info map">
             <h2>Event Map</h2>
-            <picture>
-                <!--The content below was provided by the instructor-->
-                <img src="images/apple-harvest-map.svg" alt="Ithaca Harvest Festival map" width="470" height="291">
-            </picture>
+            <div id = "map-container">
+            <button id ="exit-modal">X</button>
+                <picture
+                class="map-orientation map-background resize">
+                    <!--The content below was provided by the instructor-->
+                    <img src="images/apple-harvest-map.svg" id="map-btn" class="map-img" alt="Ithaca Harvest Festival map" width="470" height="291">
+                </picture>
+                </div>
 
             <!--The content below was provided by the instructor-->
             <p>Click here to download the <a href="images/apple-harvest-map.pdf">map</a>!</p>
         </div>
     </div>
 
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/modal.js"></script>
 </body>
 </html>

@@ -14,11 +14,26 @@
                 <!--The content below was provided by the instructor-->
                 <img src="images/apple-harvest-logo.svg" alt="apple harvest logo" width="112" height="128">
             </picture>
+            <div id="btn-cite">
+
+<!--Button Icon from Icons8. site-citation shown below -->
+                <a target="_blank" href="https://icons8.com/icon/59832/menu">Menu</a> & <a target="_blank" href="https://icons8.com/icon/84119/menu-vertical">Menu Vertical</a>  icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
             <h1>The Ithaca Apple Harvest Festival</h1>
         </header>
 
         <nav>
-            <ul>
+            <div id="btn-container">
+                <button id="nav-btn-close">
+                    <img src="interactive-img/hamburger.png" alt="hamburger-menu-bar">
+                </button>
+
+                <button id="nav-btn-open">
+                    <img src="interactive-img/hamburger2.png" alt="hamburger-menu-bar">
+                </button>
+
+            </div>
+            <ul id="nav-bar">
                 <li class="top"><a href="index.html">About</a></li>
                 <li class="top"><a href="eventinfo.html">Event Details</a></li>
                 <li><a href="vendors.html">Vendors</a></li>
@@ -60,5 +75,8 @@
             <p>Since 1982, the Ithaca Apple Harvest Festival hosts apples, baked goods, family entertainment, games, prizes, live entertainment and more.  With the help of neighboring colleges and Ithaca's farmers market, the Ithaca Apple Harvest Festival transformed into the cherished tradition that we know and love today! Over 100 talented artists, crafters, bakers, and makers come together for the Apple Harvest Craft Fair! Find creative, unique works from clothing to woodworking, ceramics to paintings, fudge to essential oils and beyond throughout the festival. The festival is held in the Ithaca Commons, a few streets that are full of restaurants and shops.</p>
         </div>
     </div>
+
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

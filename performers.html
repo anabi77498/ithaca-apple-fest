@@ -14,11 +14,26 @@
                 <!--The content below was provided by the instructor-->
                 <img src="images/apple-harvest-logo.svg" alt="apple harvest logo" width="112" height="128">
             </picture>
+            <div id="btn-cite">
+
+<!--Button Icon from Icons8. site-citation shown below -->
+                <a target="_blank" href="https://icons8.com/icon/59832/menu">Menu</a> & <a target="_blank" href="https://icons8.com/icon/84119/menu-vertical">Menu Vertical</a>  icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
             <h1>The Ithaca Apple Harvest Festival</h1>
         </header>
 
         <nav>
-            <ul>
+            <div id="btn-container">
+                <button id="nav-btn-close">
+                    <img src="interactive-img/hamburger.png" alt="hamburger-menu-bar">
+                </button>
+
+                <button id="nav-btn-open">
+                    <img src="interactive-img/hamburger2.png" alt="hamburger-menu-bar">
+                </button>
+
+            </div>
+            <ul id="nav-bar">
                 <li class="top"><a href="index.html">About</a></li>
                 <li class="top"><a href="eventinfo.html">Event Details</a></li>
                 <li><a href="vendors.html">Vendors</a></li>
@@ -30,7 +45,7 @@
     <h2>About the Performers</h2>
     <div class="performer-container">
         <div class="info">
-            <picture>
+            <picture class="resize">
                 <!--The content below was provided by the instructor-->
                 <img src="images/fire.jpg" alt="fire performance at the harvest festival" width="475" height="268">
             </picture>
@@ -81,5 +96,9 @@
             </div>
         </aside>
     </div>
+
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+
 </body>
 </html>
